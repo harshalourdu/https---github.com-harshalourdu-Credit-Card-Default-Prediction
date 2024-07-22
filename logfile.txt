@@ -117,3 +117,5 @@
 2024-07-22 11:32:48,931:INFO:Server Ran Successfully
 2024-07-22 11:34:55,243:INFO:Dash is running on http://127.0.0.1:8050/
 
+2024-07-22 12:50:00,423:INFO:Dash is running on http://127.0.0.1:8050/
+
