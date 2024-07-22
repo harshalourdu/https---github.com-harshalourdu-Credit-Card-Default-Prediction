@@ -1,6 +1,6 @@
 # Web Application using Dash
 
-from flask import Flask, request, render_template
+#from flask import Flask, request, render_template
 
 
 import dash
@@ -22,6 +22,7 @@ server = app.server
 # load saved model
 with open('E:/CCDP/xgbmodel.pkl' , 'rb') as f:
     xgb_model = pickle.load(f)
+
 
 app.layout = html.Div([
         html.H1(children = 'Credit Card Default Prediction',
